@@ -24,3 +24,6 @@ production:
   <<: *default
   adapter: postgresql
   encoding: unicode
+  
+GOOGLE_CLIENT: '12968097008-jtrl8n3hckdj58hccavnthhkeetm45ig.apps.googleusercontent.com'
+GOOGLE_SECRET: 'uUO2b56h0Ctk52N0w92l3gnj'
