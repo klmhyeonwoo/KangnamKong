@@ -3,6 +3,16 @@
     src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype');
 }
 
+h2 {
+    font-family: NanumGothic
+}
+
+p {
+    font-family: NanumGothic
+}
+
+
+
 body
 {
     font-family: NanumGothic, NanumGothic;
@@ -164,7 +174,7 @@ body a:hover
 {    
     margin-left: -10px;
     color: #55B286;
-    font-family: NanumGothic,naNumgothic, sans-serif;
+    font-family: NanumGothic,naNumgothic, NanumGothic;
     font-weight: 700;
     font-size: 180px;
     line-height: 100%;
@@ -280,7 +290,7 @@ body a:hover
 
 h1.big-title
 {
-    font-family: NanumGothic,naNumgothic, sans-serif;
+    font-family: NanumGothic,naNumgothic, NanumGothic;
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
@@ -360,7 +370,7 @@ h1.big-title
 
 .service-title 
 {
-    font-family: NanumGothic,naNumgothic, sans-serif; 
+    font-family: NanumGothic,naNumgothic, NanumGothic; 
     font-size: 24px;
     padding-bottom: 10px;
 }
@@ -405,7 +415,7 @@ h1.big-title
 
 .portfolio-holder .portfolio-load-more-holder
 {
-    font-family: NanumGothic,naNumgothic, sans-serif;    
+    font-family: NanumGothic,naNumgothic, NanumGothic;    
     font-weight: 700;
     font-size: 20px;
     width: 430px;
@@ -524,7 +534,7 @@ h1.big-title
 
 .portfolio-text
 {
-    font-family: NanumGothic,naNumgothic, sans-serif;    
+    font-family: NanumGothic,naNumgothic, NanumGothic;    
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
@@ -534,7 +544,7 @@ h1.big-title
 
 .portfolio-sec-text
 {
-    font-family: NanumGothic,naNumgothic, sans-serif;    
+    font-family: NanumGothic,naNumgothic, NanumGothic;    
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -719,7 +729,7 @@ div.pp_default .pp_loaderIcon
 
 .latest-post-bottom-text a 
 {
-    font-family: NanumGothic,naNumgothic, sans-serif;
+    font-family: NanumGothic,naNumgothic, NanumGothic;
     font-weight: 700;    
     font-size: 16px;
     line-height: 100%;    
@@ -957,7 +967,7 @@ p.custom-field-class
     height: 28px;    
     font-size: 16px;
     font-weight: 400;
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     width: 100%;
     line-height: 25px;
     padding: 0;
@@ -965,7 +975,7 @@ p.custom-field-class
 
 .contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
 {
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     color: #23214c;
     font-weight: 400;
     font-size: 16px;
@@ -973,7 +983,7 @@ p.custom-field-class
 }
 .contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
 {
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     color: #23214c;
     font-weight: 400;
     font-size: 16px;
@@ -982,7 +992,7 @@ p.custom-field-class
 }
 .contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
 {
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     color: #23214c;
     font-weight: 400;
     font-size: 16px;
@@ -990,7 +1000,7 @@ p.custom-field-class
 }
 .contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
 {
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     color: #23214c;
     font-weight: 400;
     font-size: 16px;
@@ -1040,7 +1050,7 @@ p.custom-field-class
     vertical-align: middle;
     text-decoration: none;
     background: transparent;
-    font-family: NanumGothic, 'Roboto', sans-serif;
+    font-family: NanumGothic, 'NanumGothic', NanumGothic;
     width: 100%;
     text-transform: uppercase;
     font-size: 16px;
@@ -1246,7 +1256,7 @@ footer
 
     .section-title-holder h2
     {
-        font-family: NanumGothic,NanumGothic;
+        font-family: NanumGothic;
         font-size: 30px;
         width: 177px;        
         line-height: 66px;

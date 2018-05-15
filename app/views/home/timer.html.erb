@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>countdown</title>
+</head>
+<body>
+	<div id="my-countdown">
+		<!-- display the countdown timer here -->
+	</div>
+	
+	<!-- include jQuery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<!-- include underscore.js for template -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+	
+	<!-- include the countdown plugin -->
+	<script src="assets/jquery.countdown.js"></script>
+
+	<!-- create the template to use for this example -->
+	<script type="text/template" id="countdown-tpl">
+		<table>
+			<tr>
+				<th>years</th>
+				<th>days</th>
+				<th>hours</th>
+				<th>minutes</th>
+				<th>seconds</th>
+			</tr>
+			<tr>
+				<td><%= y %></td>
+				<td><%= d %></td>
+				<td><%= h %></td>
+				<td><%= m %></td>
+				<td><%= s %></td>
+			</tr>
+		</table>
+	</script>
+
+</body>
+</html>
+
+// define what options to use
+
+
+    </body>
+</html>

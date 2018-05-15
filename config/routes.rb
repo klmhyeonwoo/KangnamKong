@@ -1,12 +1,13 @@
-
-  
-
-  
   Rails.application.routes.draw do
     
+  resources :posts
   root 'home#main'
-  
-  get '/index' => 'home#index'
+  get '/main' => 'home#main'
+  get '/index' => 'home#index'  
+  get '/plus' => 'home#plus'
+  get '/plus2' => 'home#plus2'
+    get '/timer' => 'home#timer'
+
   
   get 'home/index'
 

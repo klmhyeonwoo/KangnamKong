@@ -8,14 +8,16 @@
         <center>
             <br><br><br><br><br><br>
             <img src="assets/logo2.png" width="auto" height="130" alt="Boxus" /><br><br>
-            <p>로그인을 하셔야 정상적인 서비스 이용이 가능합니다.</p>
+            <p>로그인을 하시면 빠르고 다양한 서비스 이용이 가능합니다.</p>
             <p>본 강남콩 서비스는 구글 로그인 서비스를 지원합니다.</p><br>
             <!-- 구글 로그인 폼 -->
             <div>
               <% if current_user %>
                 강남대학교 <strong><%= current_user.name %></strong> 학우님 반갑습니다!
-                <%= link_to "로그아웃", signout_path, id: "sign_out" %> <br>
-                <a href="/index"><font size="2">강남콩 서비스로 바로가기</font></a>
+                <%= link_to "로그아웃", signout_path, id: "sign_out" %> <br><br><br>
+            <a href=""><img src="assets/gogomok.png" width="auto" height="40" alt="Boxus" /></a><br><br>
+            <a href="/index"><img src="assets/z3.png" width="auto" height="40" alt="Boxus" /></a><br><br>
+            <a href="#" onclick="javascript:btn()"><img src="assets/66.png" width="auto" height="40" alt="Boxus" /></a><br><br>
               <% else %>
               <div class="login-box">
                 <a href="/auth/google_oauth2" id= "sign_in"> <button class="loginBtn loginBtn--google">
@@ -29,5 +31,13 @@
             </div>
             <!-- 구글 로그인 폼 -->
         </center>
+        
+        <script>
+function btn(){
+    alert('업데이트 예정입니다');
+}
+</script>
+
+
     </body>
 </html>

@@ -1,0 +1,213 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>강남콩 : 축제</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="Colorlib" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <meta http-equiv="refresh" content="500">
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <!-- Menu -->
+        <div class="menu-wrapper center-relative">
+            <nav id="header-main-menu">
+                <div class="mob-menu">메뉴</div>
+                <ul class="main-menu sm sm-clean">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#services">리듬파워</a></li>
+                    <li><a href="#portfolio">다이나믹 듀오</a></li>
+                    <li><a href="#about">위너</a></li>
+                    <li><a href="#news">폴킴</a></li>
+                    <li><a href="#contact">이하이</a></li>
+                    <li><a href="#skills">축제 더보기</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Preloader Gif -->
+
+
+        <!-- Menu -->
+
+
+
+        <!-- Home -->
+
+        <div id="home" class="section intro-page">
+            <div class="block content-1170 center-relative center-text"><br>
+                <img class="top-logo" src="assets/logo2.png" alt="Boxus" />
+                <br><br><br><br><br><br><br><br>
+                        <br><br><br>
+                        
+                        <p id="notice"><%= notice %></p>
+
+<img src="assets/board.png" alt="Boxus" /><br><br><br><br>
+<table>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <h3>제목 <%= post.title %> </h3>
+        <h3>내용 <%= post.content %></h3>
+        </tr>
+        
+        
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
+<button><a href="/posts/new">ddd</a></button>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Table V02</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+					<div class="table">
+
+						<div class="row header">
+							<div class="cell">
+								제목
+							</div>
+							<div class="cell">
+								축제에 대한 코멘트-!
+							</div>
+
+						</div>
+
+						<div class="row">
+							<div class="cell" data-title="Full Name">
+								Vincent Williamson
+							</div>
+							<div class="cell" data-title="Age">
+								31
+							</div>
+
+						</div>
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+            </div>
+        </div>
+
+
+
+        <!-- Service -->
+
+
+
+                
+            </div>
+            
+
+            
+            <div id="skills" class="section">
+
+                
+                <center>
+                    <img src="assets/kangnamkong" alt="Load more"><br><br><br>
+                    <a href="/"><img src="assets/main3.png" alt="map파일"></a><br><br><br>
+                    <a href="/plus"><img src="assets/map.png" alt="map파일"></a><br><br><br>
+                    <a href="/plus2"><img src="assets/festival.png" alt="map파일"></a>
+
+                    
+                </center>
+                
+
+                
+            </div>
+ 
+        <!-- Skills -->
+
+
+
+        
+        <footer>
+            <div class="footer content-1170 center-relative">
+                <ul>
+                    <li class="copyright-footer">
+                       <span style="color:white">© 2018.05.15 ~ 2018.05.17 KNU 목양축전</span>  <a href="https://colorlib.com" target="_blank"></a>
+                    </li>
+                    <br>
+                    <li class="social-footer">
+                        <a href="https://www.facebook.com/likelionKangnam/?ref=br_rs"><span class="fa fa-facebook"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        
+        <script type="text/javascript" src="assets/jquery.js"></script>
+        <script type='text/javascript' src='assets/jquery.sticky-kit.min.js'></script>
+        <script type='text/javascript' src='assets/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='assets/jquery.sticky.js'></script>
+        <script type='text/javascript' src='assets/jquery.dryMenu.js'></script>
+        <script type='text/javascript' src='assets/isotope.pkgd.js'></script>
+        <script type='text/javascript' src='assets/jquery.carouFredSel-6.2.0-packed.js'></script>
+        <script type='text/javascript' src='assets/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='assets/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='assets/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='assets/jquery.prettyPhoto.js'></script>
+        <script type='text/javascript' src='assets/main.js'></script>
+        
+
+        <SCRIPT language="JavaScript">
+         if (self.name != 'reload') {
+                 self.name = 'reload';
+                 self.location.reload(true);
+             }
+             else self.name = ''; 
+        </SCRIPT>
+    </body>
+</html>
