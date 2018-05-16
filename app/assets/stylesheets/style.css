@@ -656,8 +656,8 @@ div.pp_default .pp_loaderIcon
 
 #news
 {
-    background-color: rgb(34, 28, 90); 
     background-image: url("/assets/background_img_64.jpg"); 
+    background-color: #31055E;  
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
